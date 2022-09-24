@@ -1,0 +1,39 @@
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+    
+.reg .c-1{
+    
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 25rem;
+    display:flex;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+   /* box-shadow: 1px 3px 10px #e9ecef;*/
+    background-color: rgb(199, 223, 243);
+    /*justify-content: center;*/
+  }
+
+.reg span{
+    color: rgb(57, 18, 18);
+    font-size: 4rem;
+    font-weight: 100;
+    font-style: italic; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10rem;
+    justify-content: center;
+}
+
+.c-1 .text{
+    color: #021120;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 0rem;
+
+}
