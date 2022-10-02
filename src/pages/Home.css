@@ -6,17 +6,20 @@ body{
 }
 .reg{
   max-width: 100%;
-  width: 65vw;
+  width: 100vw;
   display:flex;
   border: 1px solid #e9ecef;
   border-radius: 5px;
  /* box-shadow: 1px 3px 10px #e9ecef;*/
   background-color: rgb(255, 255, 255);
+  
 }
     
 .reg .col-1{
-    margin: auto;
-    padding: 3em 0;
+    margin-left: 5rem;
+    margin-right: 32rem;
+
+    
 }
 
 .reg .col-1 h2{
@@ -25,10 +28,10 @@ body{
     font-weight: 100;
     font-style: italic; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    justify-content: center;
-    padding-top: 6rem;
-    padding-left: 12rem;
-   display: flex;
+    justify-content: left;
+    /*padding-top: 6rem;
+    padding-left: 12rem;*/
+    /*display: flex;*/
 }
 
 .reg .col-1 h1{
@@ -36,39 +39,36 @@ body{
     font-size: 2rem;
     font-weight: 300;
     font-family: 'Times New Roman', Times, serif;
-    padding-top: 2rem;
-    padding-left: 5rem;
+    /*padding-top: 2rem;
+    padding-left: 5rem;*/
     /*display: flex;*/
     justify-content: left;
     
 }
 
 .reg .col-1 p{
-  padding-left: 12rem;
+  /*padding-left: 12rem;*/
   font-family: Arial, Helvetica, sans-serif;
   
 }
 
-.reg .col-1 h3{
-  padding-top: 2rem;
-  padding-left: 4rem;
-  color: rgb(211, 3, 3);
-  font-size: 45px;
-  font-weight: bolder;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.col-1 span{
+  font-size: larger;
+  align-self: baseline;
   
 }
 
 .reg .col-2 img{
-  width: 780px;
+  width: 800px;
   height: 100%;
-  object-fit: cover;
-  align-self: flex-end;
-  border-top-right-radius: 5px;
+  padding-left: 0rem;
+  
+  /*object-fit: cover;*/
+  /*align-self: flex-end;
+  /*border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   display: none;
-  max-width: fit-content;
-  
+  /*max-width: fit-content;*/ 
 
 }
 
